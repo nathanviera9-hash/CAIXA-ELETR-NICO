@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * Simulador de Caixa Eletronico
+ * Simulador Básico de Caixa Eletronico
  * Calcula a distribuicao de cedulas (100, 50, 20, 10, 5, 2 e 1)
  * usando divisao inteira (/) e resto da divisao (%).
  */
