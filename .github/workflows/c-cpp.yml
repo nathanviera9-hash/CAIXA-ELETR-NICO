@@ -17,4 +17,4 @@ jobs:
         run: make
 
       - name: Make Test / Check
-        run: make test # ou make check, dependendo do seu Makefile
+        run: make test
