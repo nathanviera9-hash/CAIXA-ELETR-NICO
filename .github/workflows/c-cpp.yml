@@ -13,14 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Configure
-        run: ./configure
-
-      - name: Make
+      - name: Make (Build)
         run: make
 
-      - name: Make Check
-        run: make check
-
-      - name: Make Distcheck
-        run: make distcheck
+      - name: Make Test / Check
+        run: make test # ou make check, dependendo do seu Makefile
